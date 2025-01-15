@@ -8,8 +8,6 @@ dir_scripts = '';
 dir_data_RBDPDcontrols = '';
 cd(dir_data_RBDPDcontrols);
 
-%% Load subjects 
-
 % Control subjects
 X = {''};
 X = X';
