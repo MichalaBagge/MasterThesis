@@ -3,7 +3,7 @@
 close all; clear; clc;
 
 % Define directories
-dir_scripts = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Code\MATLAB\EM_tuning_scripts_RH';
+dir_scripts = '';
 
 
 %% Load subjects 
