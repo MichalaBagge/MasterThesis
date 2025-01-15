@@ -3,10 +3,8 @@ clear; clc;
 close all
 
 % Define directories
-dir_epoch_factor = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Code\MATLAB\Workspace_Final_Validation\epoch_factor_new';
-dir_corr_factor = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Code\MATLAB\Workspace_Final_Validation\corr_factor';
-dir_Pth_factor = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Code\MATLAB\Workspace_Final_Validation\Pth';
-
+dir_epoch_factor = '...Workspace_Final_Validation\epoch_factor_new';
+dir_corr_factor = '...Workspace_Final_Validation\corr_factor';
 
 opt_factor = 1;
 names = {'epoch_factor','corr_factor'};
