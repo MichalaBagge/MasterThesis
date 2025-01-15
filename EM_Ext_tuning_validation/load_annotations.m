@@ -1,7 +1,7 @@
 function [EM_annotations, REM_annotations, SEM_annotations,start_idx,stop_idx] = load_annotations(subject_ID)
 
 % Set directory
-dir_annotations = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Data\Eye movements con-glo Julie\EM manual scorings 2019';
+dir_annotations = '';
 cd(dir_annotations)
 
 % Load light off / on targets 
