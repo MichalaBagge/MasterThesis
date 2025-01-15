@@ -4,9 +4,9 @@ close all; clc;
 clearvars -except subjects
 
 % Define directories
-dir_data = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Data\Eye movements con-glo Julie\MatlabData';
-dir_annotations = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Data\Eye movements con-glo Julie\EM manual scorings 2019';
-dir_scripts = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Code\MATLAB\Workspace_Final_Validation';
+dir_data = '';
+dir_annotations = '';
+dir_scripts = '';
 cd(dir_scripts)
  
 % Load subjects 
@@ -18,8 +18,6 @@ F=F(3:end); % FOR USE
 EM_metrics_EMs_vec = zeros(length(F),6);                                    % OBS!
 EM_metrics_EM_vec = zeros(length(F),6); 
 EM_metrics_EM_vec_SoA = zeros(length(F),6); 
-EM_metrics_REMs_vec = zeros(length(F),6);                             % OBS!
-EM_metrics_SEMs_vec = zeros(length(F),6); 
 
 
 for ii =1:length(F)
