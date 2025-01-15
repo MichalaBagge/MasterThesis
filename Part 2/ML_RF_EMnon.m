@@ -4,10 +4,7 @@ close all; clc;
 clearvars -except subjects
 
 % Define directories
-dir_data = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Data\Eye movements con-glo Julie\MatlabData';
-dir_annotations = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Data\Eye movements con-glo Julie\EM manual scorings 2019';
-dir_feature_funcs = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Code\MATLAB\Feature_functions';
-dir_scripts = 'C:\Users\micha\OneDrive - Danmarks Tekniske Universitet\Semester\Code\MATLAB\Workspace_201224';
+% ...
 
 % Load subject IDs
 cd(dir_data)
