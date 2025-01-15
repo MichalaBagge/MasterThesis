@@ -66,11 +66,6 @@ for ii =1:length(F)
     EM_metrics_EM_vec(ii, :) = EM_performance_val(EM_vec, EM_annotations);   % OBS!
     EM_metrics_EMs_vec(ii, :) = EM_performance_val(EMs_vec, EM_annotations); % OBS!
 
-    % Performance measures for EM detection
-    EM_metrics_EMs_vec(ii, :) = EM_performance_val(EMs_vec, EM_annotations); % OBS!
-    EM_metrics_REMs_vec(ii, :) = EM_performance_val(REMs_vec, REM_annotations); % OBS!
-    EM_metrics_SEMs_vec(ii, :) = EM_performance_val(SEMs_vec, SEM_annotations); % OBS!
-
     % Clear temporary signals for next subject
     clearvars -except dir_scripts dir_data dir_annotations ...
     F ii ...
