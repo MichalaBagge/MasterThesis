@@ -6,5 +6,6 @@ dir_data = ''; dir_annotations = ''; dir_scripts = ''; or just denoted with “%
 The code files are structured in folders according to Chapters. 
 The main code files and additional functions used in Chapter 4 are found in “EM_SoA_tuning_validation” and “EM_Ext_tuning_validation.” 
 The main code used in Chapters 5 & 6 are found in “Part 2” and “Part 3” respectively. 
+\\
 Best regards
 Michala Bagge
