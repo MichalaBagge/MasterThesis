@@ -170,9 +170,9 @@ function [EM_epoch_vec, EM_vec, EMs_vec, REMs_vec, SEMs_vec, EMs_dur, ...
     EMs_dur = diff(EMs,1,2)/fs;
     EMs_dur = EMs_dur(EMs_dur<=3);
     % Determine EM categories
-    REMs = EMs(EMs_dur<=0.5,:); %*2  
-    SEMs = EMs(EMs_dur>0.5, :); %*2
-     
+    REMs = EMs(EMs_dur<=0.5*2,:);      
+    SEMs = EMs(EMs_dur>0.5*2, :); 
+ 
     % Make REMs, SEMs and EMs of logical characteristics
     EMs_vec = zeros(size(eog_r_mov));
     for n = 1:size(EMs, 1)
