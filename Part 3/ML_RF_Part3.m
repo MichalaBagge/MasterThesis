@@ -8,7 +8,7 @@ dir_scripts = '';
 
 % Load subject feature table
 cd(dir_scripts)
-dir_subject = fullfile(dir_scripts,"FeatureTable_RBDPD_Part3___.csv");
+dir_subject = fullfile(dir_scripts,"FeatureTable_RBDPD_Part3.csv");
 dir_labels = fullfile(dir_scripts,"keys_anonymized.csv");
 y_temp = readtable(dir_labels);
 idx_y = ismember(y_temp.SubjectID,EM_Feature_Table.SubjectID);
