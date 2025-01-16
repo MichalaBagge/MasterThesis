@@ -1,7 +1,7 @@
 This code was created by Michala Bagge in the period 22-01-24 – 15-01-25 . Please do not use without permission.
 \
 This repository contains code used corresponding to the main Chapters: 4,5 & 6 of the thesis: 
-“Characteriza-tion of Abnormal Eye Movements in Sleep for Profiling of Neurodegenerative Disease.”
+“Characterization of Abnormal Eye Movements in Sleep for Profiling of Neurodegenerative Disease.”
 \
 Directories and ID names are removed due to the protection of privacy. Directories will be found empty as: 
 dir_data = ''; dir_annotations = ''; dir_scripts = ''; or just denoted with “%...”.
